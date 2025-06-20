@@ -109,8 +109,8 @@ export default {
         },
         {
           icon: 'mdi-scanner',
-          title: 'Scanner',
-          to: '/scanner'
+          title: 'SignIn',
+          to: '/signin'
         }
       ],
       miniVariant: false,
