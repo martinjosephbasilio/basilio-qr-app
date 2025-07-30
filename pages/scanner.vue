@@ -60,7 +60,7 @@
   
   <style scoped>
   #reader {
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 8px;
     border-radius: 8px;
   }
