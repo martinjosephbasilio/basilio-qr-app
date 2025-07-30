@@ -57,7 +57,7 @@ export default {
     autoFetchUser: false,
     strategies: {
       google: {
-        clientId: '414265394035-1s958r4c34tq00f8bl81ikdjkiv7av7q.apps.googleusercontent.com',
+        clientId: process.env.GOOGLE_CLIENT_ID,
         scheme: "oauth2",
         endpoints:{
           authorization: "https://accounts.google.com/o/oauth2/auth",
@@ -70,7 +70,7 @@ export default {
         },
         responseType: "token id_token",
         scope: ["openid", "profile", "email"],
-        redirectUri: process.env.REDIRECT_URI,
+        redirectUri: process.env.GOOGLE_REDIRECT_URI,
         codeChallengeMethod: "",
       },
     },
